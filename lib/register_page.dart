@@ -6,7 +6,10 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      appBar: AppBar(
+        title: Text('matro change ansi'),
+      ),
+      body: Center()
     );
   }
 }
